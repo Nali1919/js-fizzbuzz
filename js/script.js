@@ -8,14 +8,14 @@ for (let y = 1; y <= 100; y++) {
     const divisibilePerEntrambi= y % 3 ===0 & y % 5 ===0
     
     if(divisibilePerTre){
-        console.log(y+'fizz' );
+        console.log('fizz' );
     }
 
     if (divisibilePerCinque){
-        console.log( y+'buzz');
+        console.log( 'buzz');
     }
   if (divisibilePerEntrambi) {
-    console.log( y+'fizzbuzz')
+    console.log( 'fizzbuzz')
     }
     if (nonDivsibile) {
     console.log(y)
